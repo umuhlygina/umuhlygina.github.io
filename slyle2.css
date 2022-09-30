@@ -1,0 +1,19 @@
+body {
+    background-color: #F4A460;
+}
+#flex {
+    display: flex;
+    flex-direction: row;
+}
+nav {
+    background-color: #DEB887;
+}
+main {
+    background-color: #F0E68C;
+}
+h2 {
+    color: orange;
+}
+h1 {
+    color: Gold;
+}
