@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	</head>
+	<nav>
+<ul>
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="SUN.html">Солнце</a></li>
+    <li><a href="Mercury.html">Меркурий</a></li>
+    <li><a href="Venus.html">Венера</a></li>
+    <li><a href="Earth.html">Земля</a></li>
+    <li><a href="MARS.html">Марс</a></li>
+     <li><a href="indexx.html">Сапер</a></li>
+      <li><a href="eight.html">Восьмерки</a></li>
+</ul>
+            </nav>
+	<body>
+		<h1>Сапёр</h1>
+		<div style="display:none;">
+			<img id="flag" src="./images/flag.png">
+			<img id="mine" src="./images/mine.png">
+		</div>
+
+		<canvas oncontextmenu="event.preventDefault();" id="canvas" width="400" height="400" style="background-color:rgb(200, 200, 200);"></canvas>
+		<br>
+		<button type = "button" id="start">Начать</button>
+		<button type = "button" id = "ai_move">Ход ИИ</button>
+		<script src="./jss/index.js" type="module"></script>
+	</body>
+</html>
+
